@@ -80,7 +80,6 @@ class AuthScreen extends Component {
             password: this.state.controls.password.value
         };
         this.props.onLogin()
-        debugger;
         StartMainTabs();
     }
 
