@@ -1,4 +1,4 @@
-import { ADD_PLACE, DELETE_PLACE, SELECT_PLACE, DESELECT_PLACE } from './actionTypes';
+import { SET_PLACES, DELETE_PLACE, SELECT_PLACE ,REMOVE_PLACE } from './actionTypes';
 import { uiStartLoading, uiStopLoading } from './index';
 export const addPlace = (placeName, location, image) => {
 
@@ -41,12 +41,39 @@ export const addPlace = (placeName, location, image) => {
     };
 };
 
-export const deletePlace = (key) => {
-    return {
-        type: DELETE_PLACE,
-        key: key
+export const getPlaces = () => {
+    console.log('action get places')
+    return dispatch => {
+        fetch("https://appteach-7a364.firebaseio.com/places.json")
+        .catch(err => {
+            alert("Something went wrong, sorry :/");
+            console.log(err);
+        })
+        .then(res => res.json())
+        .then(parsedRes => {
+            console.log('parsed'+parsedRes)
+            const places = [];
+            for (let key in parsedRes) {
+                places.push({
+                    ...parsedRes[key],
+                    image: {
+                        uri: parsedRes[key].image
+                    },
+                    key: key
+                });
+            }
+            dispatch(setPlaces(places));
+        });
     };
 };
+
+export const setPlaces = places => {
+    return {
+        type: SET_PLACES,
+        places: places
+    };
+};
+
 
 export const selectPlace = (key) => {
     return {
@@ -58,5 +85,29 @@ export const selectPlace = (key) => {
 export const deselectPlace = () => {
     return {
         type: DESELECT_PLACE,
+    };
+};
+
+export const deletePlace = (key) => {
+    return dispatch => {
+        dispatch(removePlace(key));
+        fetch("https://awesome-places-1511248766522.firebaseio.com/places/" + key + ".json", {
+            method: "DELETE"
+        })
+        .catch(err => {
+            alert("Something went wrong, sorry :/");
+            console.log(err);
+        })
+        .then(res => res.json())
+        .then(parsedRes => {
+            console.log("Done!");
+        });
+    };
+};
+
+export const removePlace = key => {
+    return {
+        type: REMOVE_PLACE,
+        key: key
     };
 };
