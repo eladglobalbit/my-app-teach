@@ -3,7 +3,6 @@ package com.myapp;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.reactnativenavigation.NavigationReactPackage;
 import com.imagepicker.ImagePickerPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.airbnb.android.react.maps.MapsPackage;
@@ -28,10 +27,10 @@ public class MainApplication extends NavigationApplication{
   //   protected List<ReactPackage> getPackages() {
   //     return Arrays.<ReactPackage>asList(
   //         new MainReactPackage(),
-            new NavigationReactPackage(),
-            new ImagePickerPackage(),
-            new VectorIconsPackage(),
-            new MapsPackage(),
+            // new NavigationReactPackage(),
+            // new ImagePickerPackage(),
+            // new VectorIconsPackage(),
+            // new MapsPackage(),
   //           new VectorIconsPackage()
   //     );
   //   }
@@ -63,7 +62,8 @@ public class MainApplication extends NavigationApplication{
 		// Add additional packages you require here
 		// No need to add RnnPackage and MainReactPackage
 		return Arrays.<ReactPackage>asList(
-			new VectorIconsPackage()
+			new VectorIconsPackage(),
+      new MapsPackage()
 		);
 	}
 

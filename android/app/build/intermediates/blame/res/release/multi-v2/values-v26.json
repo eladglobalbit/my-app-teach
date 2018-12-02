@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/eladnisan/Desktop/react-native-projects/myapp/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v26/values-v26.xml",
+            "outputFile": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
                     "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/3e89f4007052164ab172ddfe70c79db8/res/values-v26/values-v26.xml",
