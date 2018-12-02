@@ -25,7 +25,7 @@ Navigation.registerComponent("my-app.SideDrawerScreen" , () => SideDrawerScreen 
 Navigation.registerComponent("my-app.MapScreen" , () => MapScreen ,store ,Provider);
 //Start App
 
-Navigation.startSingleScreenApp({
+export default () =>  Navigation.startSingleScreenApp({
   screen: {
     screen: "my-app.AuthScreen",
     title: "Login"
