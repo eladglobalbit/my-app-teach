@@ -1,113 +1,136 @@
-import { SET_PLACES, DELETE_PLACE, SELECT_PLACE ,REMOVE_PLACE } from './actionTypes';
-import { uiStartLoading, uiStopLoading } from './index';
-export const addPlace = (placeName, location, image) => {
+import { SET_PLACES, REMOVE_PLACE } from "./actionTypes";
+import { uiStartLoading, uiStopLoading, authGetToken } from "./index";
 
-    return dispatch => {
-        dispatch(uiStartLoading());
-        fetch("https://us-central1-appteach-7a364.cloudfunctions.net/storeImage", {
+
+export const addPlace = (placeName, location, image) => {
+  return dispatch => {
+    let authToken;
+    dispatch(uiStartLoading());
+    dispatch(authGetToken())
+      .catch(() => {
+        alert("No valid token found!");
+      })
+      .then(token => {
+        authToken = token;
+        return fetch(
+          "https://us-central1-appteach-7a364.cloudfunctions.net/storeImage",
+          {
             method: "POST",
             body: JSON.stringify({
-                image: image.base64
-            })
-        })
-        .catch(err => {
-            console.log(err);
-            alert("Something went wrong, please try again!");
-            dispatch(uiStopLoading());
-        })
-        .then(res => res.json())
-        .then(parsedRes => {
-            const placeData = {
-                name: placeName,
-                location: location,
-                image: parsedRes.imageUrl
-            };
-            return fetch("https://appteach-7a364.firebaseio.com/places.json", {
-                method: "POST",
-                body: JSON.stringify(placeData)
-            })
-        })  
-        .catch(err => {
-            console.log(err);
-            alert("Something went wrong, please try again!");
-            dispatch(uiStopLoading());
-        })
-        .then(res => res.json())
-        .then(parsedRes => {
-            console.log(parsedRes);
-            alert('done');
-            dispatch(uiStopLoading());
-        });
-    };
+              image: image.base64
+            }),
+            headers: {
+              Authorization: "Bearer " + authToken
+            }
+          }
+        );
+      })
+      .catch(err => {
+        console.log(err);
+        alert("Something went wrong, please try again!");
+        dispatch(uiStopLoading());
+      })
+      .then(res => res.json())
+      .then(parsedRes => {
+        const placeData = {
+          name: placeName,
+          location: location,
+          image: parsedRes.imageUrl
+        };
+        return fetch(
+          "https://appteach-7a364.firebaseio.com//places.json?auth=" +
+            authToken,
+          {
+            method: "POST",
+            body: JSON.stringify(placeData)
+          }
+        );
+      })
+      .then(res => res.json())
+      .then(parsedRes => {
+        console.log(parsedRes);
+        dispatch(uiStopLoading());
+      })
+      .catch(err => {
+        console.log(err);
+        alert("Something went wrong, please try again!");
+        dispatch(uiStopLoading());
+      });
+  };
 };
 
 export const getPlaces = () => {
-    console.log('action get places')
-    return dispatch => {
-        fetch("https://appteach-7a364.firebaseio.com/places.json")
-        .catch(err => {
-            alert("Something went wrong, sorry :/");
-            console.log(err);
-        })
-        .then(res => res.json())
-        .then(parsedRes => {
-            console.log('parsed'+parsedRes)
-            const places = [];
-            for (let key in parsedRes) {
-                places.push({
-                    ...parsedRes[key],
-                    image: {
-                        uri: parsedRes[key].image
-                    },
-                    key: key
-                });
-            }
-            dispatch(setPlaces(places));
-        });
-    };
+  return dispatch => {
+    dispatch(authGetToken())
+      .then(token => {
+        return fetch(
+          "https://appteach-7a364.firebaseio.com/places.json?auth=" +
+            token
+        );
+      })
+      .catch(() => {
+        alert("No valid token found!");
+      })
+      .then(res => res.json())
+      .then(parsedRes => {
+        const places = [];
+        for (let key in parsedRes) {
+          places.push({
+            ...parsedRes[key],
+            image: {
+              uri: parsedRes[key].image
+            },
+            key: key
+          });
+        }
+        dispatch(setPlaces(places));
+      })
+      .catch(err => {
+        alert("Something went wrong, sorry :/");
+        console.log(err);
+      });
+  };
 };
 
 export const setPlaces = places => {
-    return {
-        type: SET_PLACES,
-        places: places
-    };
+  return {
+    type: SET_PLACES,
+    places: places
+  };
 };
 
-
-export const selectPlace = (key) => {
-    return {
-        type: SELECT_PLACE,
-        placeKey: key
-    };
-};
-
-export const deselectPlace = () => {
-    return {
-        type: DESELECT_PLACE,
-    };
-};
-
-export const deletePlace = (key) => {
-    return dispatch => {
+export const deletePlace = key => {
+  return dispatch => {
+    dispatch(authGetToken())
+      .catch(() => {
+        alert("No valid token found!");
+      })
+      .then(token => {
         dispatch(removePlace(key));
-        fetch("https://awesome-places-1511248766522.firebaseio.com/places/" + key + ".json", {
+        return fetch(
+          "https://appteach-7a364.firebaseio.com/places/" +
+            key +
+            ".json?auth=" +
+            token,
+          {
             method: "DELETE"
-        })
-        .catch(err => {
-            alert("Something went wrong, sorry :/");
-            console.log(err);
-        })
-        .then(res => res.json())
-        .then(parsedRes => {
-            console.log("Done!");
-        });
-    };
+          }
+        );
+      })
+      .then(res => res.json())
+      .then(parsedRes => {
+        console.log("Done!");
+      })
+      .catch(err => {
+        alert("Something went wrong, sorry :/");
+        console.log(err);
+      });
+  };
 };
 
 export const removePlace = key => {
-    return {
-        type: REMOVE_PLACE,
-        key: key
-    };
+  return {
+    type: REMOVE_PLACE,
+    key: key
+  };
 };
