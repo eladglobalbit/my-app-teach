@@ -220,6 +220,10 @@
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/drawable/abc_cab_background_top_material.xml"
     },
     {
+        "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/generated/res/pngs/release/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png"
     },
@@ -332,6 +336,10 @@
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
+        "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/generated/res/pngs/release/drawable-mdpi/ic_launcher_background.png"
+    },
+    {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-v21_design_password_eye.xml.flat",
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/89419c69366474638cd60eff731b35ce/res/drawable-v21/design_password_eye.xml"
     },
@@ -402,6 +410,10 @@
     {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/generated/res/pngs/release/drawable-xxhdpi/ic_launcher_background.png"
     },
     {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
@@ -526,6 +538,10 @@
     {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_light_focused.xml.flat",
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/79176d3877d53dbd5b67cd96b49f0b71/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -788,6 +804,10 @@
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/generated/res/pngs/release/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
@@ -924,6 +944,10 @@
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/89419c69366474638cd60eff731b35ce/res/drawable-xhdpi-v4/design_ic_visibility.png"
     },
     {
+        "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/generated/res/pngs/release/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/layout_abc_action_bar_up_container.xml.flat",
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/layout/abc_action_bar_up_container.xml"
     },
@@ -986,6 +1010,10 @@
     {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/generated/res/pngs/release/drawable-ldpi/ic_launcher_background.png"
     },
     {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-v21_item_background.xml.flat",
@@ -1066,6 +1094,10 @@
     {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -1304,6 +1336,10 @@
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/608e84de859bf75787c6ea10703509d3/res/layout/notification_template_part_time.xml"
     },
     {
+        "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
@@ -1372,6 +1408,10 @@
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
+        "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
     },
@@ -1406,6 +1446,10 @@
     {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/layout_design_layout_snackbar_include.xml.flat",
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/89419c69366474638cd60eff731b35ce/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable_abc_switch_thumb_material.xml.flat",
@@ -1494,6 +1538,10 @@
     {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable_abc_vector_test.xml.flat",
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/layout_abc_screen_simple_overlay_action_mode.xml.flat",
@@ -1868,6 +1916,10 @@
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/generated/res/pngs/release/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/color-v23_abc_tint_default.xml.flat",
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/color-v23/abc_tint_default.xml"
     },
@@ -2090,6 +2142,10 @@
     {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",

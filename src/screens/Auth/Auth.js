@@ -78,6 +78,7 @@ class AuthScreen extends Component {
   };
 
   componentDidMount() {
+    alert('Auth start')
     this.props.onAutoSignIn();
   }
 

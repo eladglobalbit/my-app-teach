@@ -24,7 +24,7 @@ exports.storeImage = functions.https.onRequest((request, response) => {
       !request.headers.authorization ||
       !request.headers.authorization.startsWith("Bearer ")
     ) {
-      console.log("No token present!");
+      // console.log("No token present!");
       response.status(403).json({ error: "Unauthorized" });
       return;
     }
@@ -40,7 +40,7 @@ exports.storeImage = functions.https.onRequest((request, response) => {
           body.image,
           "base64",
           err => {
-            console.log(err);
+            // console.log(err);
             return response.status(500).json({ error: err });
           }
         );
@@ -71,14 +71,14 @@ exports.storeImage = functions.https.onRequest((request, response) => {
                   uuid
               });
             } else {
-              console.log(err);
+              // console.log(err);
               response.status(500).json({ error: err });
             }
           }
         );
       })
       .catch(error => {
-        console.log("Token is invalid!");
+        // console.log("Token is invalid!");
         response.status(403).json({error: "Unauthorized"});
       });
   });

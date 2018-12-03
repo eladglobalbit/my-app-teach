@@ -48,11 +48,11 @@ export const addPlace = (placeName, location, image) => {
       })
       .then(res => res.json())
       .then(parsedRes => {
-        console.log(parsedRes);
+        // console.log(parsedRes);
         dispatch(uiStopLoading());
       })
       .catch(err => {
-        console.log(err);
+        // console.log(err);
         alert("Something went wrong, please try again!");
         dispatch(uiStopLoading());
       });
@@ -87,7 +87,7 @@ export const getPlaces = () => {
       })
       .catch(err => {
         alert("Something went wrong, sorry :/");
-        console.log(err);
+        // console.log(err);
       });
   };
 };
@@ -119,11 +119,11 @@ export const deletePlace = key => {
       })
       .then(res => res.json())
       .then(parsedRes => {
-        console.log("Done!");
+        // console.log("Done!");
       })
       .catch(err => {
         alert("Something went wrong, sorry :/");
-        console.log(err);
+        // console.log(err);
       });
   };
 };

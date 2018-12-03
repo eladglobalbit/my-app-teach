@@ -10,6 +10,7 @@ import MapScreen from './src/screens/Map/Map'
 
 import configureStore from './src/store/configureStore';
 
+
 const store = configureStore();
 
 
@@ -25,7 +26,8 @@ Navigation.registerComponent("my-app.SideDrawerScreen" , () => SideDrawerScreen 
 Navigation.registerComponent("my-app.MapScreen" , () => MapScreen ,store ,Provider);
 //Start App
 
-export default () =>  Navigation.startSingleScreenApp({
+export default () => 
+  Navigation.startSingleScreenApp({
   screen: {
     screen: "my-app.AuthScreen",
     title: "Login"

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Dec 03 10:25:04 IST 2018
+#Mon Dec 03 17:36:52 IST 2018
 5.base=/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/transforms/mergeJniLibs/release/0
 22.path=fonts/Feather.ttf
 32.set=NATIVE_RESOURCE
