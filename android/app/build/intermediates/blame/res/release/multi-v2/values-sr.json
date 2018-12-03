@@ -4,7 +4,24 @@
             "outputFile": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sr/values-sr.xml",
             "map": [
                 {
-                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9fdf3fcfe5d0f175acf82a7e61cf4397/res/values-sr/values-sr.xml",
+                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/99ae5b3300dc1d419a1978af2db32e04/res/values-sr/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "188",
+                        "endOffsets": "473"
+                    },
+                    "to": {
+                        "startLines": "26",
+                        "startColumns": "4",
+                        "startOffsets": "2880",
+                        "endColumns": "188",
+                        "endOffsets": "3064"
+                    }
+                },
+                {
+                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/608e84de859bf75787c6ea10703509d3/res/values-sr/values-sr.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d0fe2b47b9a55e4549698807dd6d951e/res/values-sr/values-sr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,317,423,509,613,731,812,892,980,1085,1193,1294,1398,1506,1607,1774,1871",
-                        "endColumns": "108,102,105,85,103,117,80,79,87,104,107,100,103,107,100,166,96,83",
-                        "endOffsets": "209,312,418,504,608,726,807,887,975,1080,1188,1289,1393,1501,1602,1769,1866,1950"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,317,423,509,613,731,812,892,980,1085,1193,1294,1398,1506,1607,1774,4388",
-                        "endColumns": "108,102,105,85,103,117,80,79,87,104,107,100,103,107,100,166,96,83",
-                        "endOffsets": "209,312,418,504,608,726,807,887,975,1080,1188,1289,1393,1501,1602,1769,1866,4467"
-                    }
-                },
-                {
-                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/73b0a2cffa1225e9f144d94d1bb91a14/res/values-sr/values.xml",
+                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/79176d3877d53dbd5b67cd96b49f0b71/res/values-sr/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -55,20 +55,20 @@
                     }
                 },
                 {
-                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/6d40b6dec0f699cc15a74922e1860480/res/values-sr/values.xml",
+                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/values-sr/values-sr.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "285",
-                        "endColumns": "188",
-                        "endOffsets": "473"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,317,423,509,613,731,812,892,980,1085,1193,1294,1398,1506,1607,1774,1871",
+                        "endColumns": "108,102,105,85,103,117,80,79,87,104,107,100,103,107,100,166,96,83",
+                        "endOffsets": "209,312,418,504,608,726,807,887,975,1080,1188,1289,1393,1501,1602,1769,1866,1950"
                     },
                     "to": {
-                        "startLines": "26",
-                        "startColumns": "4",
-                        "startOffsets": "2880",
-                        "endColumns": "188",
-                        "endOffsets": "3064"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,317,423,509,613,731,812,892,980,1085,1193,1294,1398,1506,1607,1774,4388",
+                        "endColumns": "108,102,105,85,103,117,80,79,87,104,107,100,103,107,100,166,96,83",
+                        "endOffsets": "209,312,418,504,608,726,807,887,975,1080,1188,1289,1393,1501,1602,1769,1866,4467"
                     }
                 }
             ]

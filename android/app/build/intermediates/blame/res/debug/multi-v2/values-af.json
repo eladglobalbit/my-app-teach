@@ -4,24 +4,7 @@
             "outputFile": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml",
             "map": [
                 {
-                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d0fe2b47b9a55e4549698807dd6d951e/res/values-af/values-af.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,209,309,415,500,603,721,797,874,955,1062,1165,1262,1370,1472,1574,1728,1826",
-                        "endColumns": "103,99,105,84,102,117,75,76,80,106,102,96,107,101,101,153,97,79",
-                        "endOffsets": "204,304,410,495,598,716,792,869,950,1057,1160,1257,1365,1467,1569,1723,1821,1901"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,209,309,415,500,603,721,797,874,955,1062,1165,1262,1370,1472,1574,1728,4360",
-                        "endColumns": "103,99,105,84,102,117,75,76,80,106,102,96,107,101,101,153,97,79",
-                        "endOffsets": "204,304,410,495,598,716,792,869,950,1057,1160,1257,1365,1467,1569,1723,1821,4435"
-                    }
-                },
-                {
-                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/6d40b6dec0f699cc15a74922e1860480/res/values-af/values.xml",
+                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/99ae5b3300dc1d419a1978af2db32e04/res/values-af/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,24 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9fdf3fcfe5d0f175acf82a7e61cf4397/res/values-af/values-af.xml",
+                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/values-af/values-af.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,309,415,500,603,721,797,874,955,1062,1165,1262,1370,1472,1574,1728,1826",
+                        "endColumns": "103,99,105,84,102,117,75,76,80,106,102,96,107,101,101,153,97,79",
+                        "endOffsets": "204,304,410,495,598,716,792,869,950,1057,1160,1257,1365,1467,1569,1723,1821,1901"
                     },
                     "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4440",
-                        "endColumns": "100",
-                        "endOffsets": "4536"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,309,415,500,603,721,797,874,955,1062,1165,1262,1370,1472,1574,1728,4360",
+                        "endColumns": "103,99,105,84,102,117,75,76,80,106,102,96,107,101,101,153,97,79",
+                        "endOffsets": "204,304,410,495,598,716,792,869,950,1057,1160,1257,1365,1467,1569,1723,1821,4435"
                     }
                 },
                 {
-                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/73b0a2cffa1225e9f144d94d1bb91a14/res/values-af/values.xml",
+                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/79176d3877d53dbd5b67cd96b49f0b71/res/values-af/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -69,6 +52,23 @@
                         "startOffsets": "1826,1935,2123,2251,2363,2572,2696,3029,3254,3364,3552,3681,3879,4063,4159,4252",
                         "endColumns": "108,187,127,111,208,123,130,224,109,187,128,197,183,95,92,107",
                         "endOffsets": "1930,2118,2246,2358,2567,2691,2822,3249,3359,3547,3676,3874,4058,4154,4247,4355"
+                    }
+                },
+                {
+                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/608e84de859bf75787c6ea10703509d3/res/values-af/values-af.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4440",
+                        "endColumns": "100",
+                        "endOffsets": "4536"
                     }
                 }
             ]

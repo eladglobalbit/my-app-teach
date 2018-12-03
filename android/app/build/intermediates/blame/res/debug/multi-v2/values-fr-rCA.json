@@ -4,41 +4,7 @@
             "outputFile": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
-                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9fdf3fcfe5d0f175acf82a7e61cf4397/res/values-fr-rCA/values-fr-rCA.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4773",
-                        "endColumns": "100",
-                        "endOffsets": "4869"
-                    }
-                },
-                {
-                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/6d40b6dec0f699cc15a74922e1860480/res/values-fr-rCA/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "289",
-                        "endColumns": "219",
-                        "endOffsets": "508"
-                    },
-                    "to": {
-                        "startLines": "26",
-                        "startColumns": "4",
-                        "startOffsets": "3007",
-                        "endColumns": "219",
-                        "endOffsets": "3222"
-                    }
-                },
-                {
-                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d0fe2b47b9a55e4549698807dd6d951e/res/values-fr-rCA/values-fr-rCA.xml",
+                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/res/values-fr-rCA/values-fr-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/73b0a2cffa1225e9f144d94d1bb91a14/res/values-fr-rCA/values.xml",
+                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/79176d3877d53dbd5b67cd96b49f0b71/res/values-fr-rCA/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -69,6 +35,40 @@
                         "startOffsets": "1937,2045,2257,2389,2500,2730,2865,3227,3481,3595,3811,3949,4168,4377,4480,4574",
                         "endColumns": "107,211,131,110,229,134,141,253,113,215,137,218,208,102,93,112",
                         "endOffsets": "2040,2252,2384,2495,2725,2860,3002,3476,3590,3806,3944,4163,4372,4475,4569,4682"
+                    }
+                },
+                {
+                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/608e84de859bf75787c6ea10703509d3/res/values-fr-rCA/values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4773",
+                        "endColumns": "100",
+                        "endOffsets": "4869"
+                    }
+                },
+                {
+                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/99ae5b3300dc1d419a1978af2db32e04/res/values-fr-rCA/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "289",
+                        "endColumns": "219",
+                        "endOffsets": "508"
+                    },
+                    "to": {
+                        "startLines": "26",
+                        "startColumns": "4",
+                        "startOffsets": "3007",
+                        "endColumns": "219",
+                        "endOffsets": "3222"
                     }
                 }
             ]

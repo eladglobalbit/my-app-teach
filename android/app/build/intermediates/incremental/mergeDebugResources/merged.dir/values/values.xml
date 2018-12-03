@@ -407,12 +407,7 @@
 
 <enum name="adjust_height" value="2"/>
 
-</attr>
-
-<attr format="float" name="imageAspectRatio"/>
-
-<attr format="boolean" name="circleCrop"/>
-</declare-styleable>
+</attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
     <declare-styleable name="MapAttrs"><attr name="mapType">
 <enum name="none" value="0"/>
 
@@ -424,52 +419,7 @@
 
 <enum name="hybrid" value="4"/>
 
-</attr>
-
-<attr format="float" name="cameraBearing"/>
-
-<attr format="float" name="cameraTargetLat"/>
-
-<attr format="float" name="cameraTargetLng"/>
-
-<attr format="float" name="cameraTilt"/>
-
-<attr format="float" name="cameraZoom"/>
-
-<attr format="boolean" name="liteMode"/>
-
-<attr format="boolean" name="uiCompass"/>
-
-<attr format="boolean" name="uiRotateGestures"/>
-
-<attr format="boolean" name="uiScrollGestures"/>
-
-<attr format="boolean" name="uiTiltGestures"/>
-
-<attr format="boolean" name="uiZoomControls"/>
-
-<attr format="boolean" name="uiZoomGestures"/>
-
-<attr format="boolean" name="useViewLifecycle"/>
-
-<attr format="boolean" name="zOrderOnTop"/>
-
-<attr format="boolean" name="uiMapToolbar"/>
-
-<attr format="boolean" name="ambientEnabled"/>
-
-<attr format="float" name="cameraMinZoomPreference"/>
-
-<attr format="float" name="cameraMaxZoomPreference"/>
-
-<attr format="float" name="latLngBoundsSouthWestLatitude"/>
-
-<attr format="float" name="latLngBoundsSouthWestLongitude"/>
-
-<attr format="float" name="latLngBoundsNorthEastLatitude"/>
-
-<attr format="float" name="latLngBoundsNorthEastLongitude"/>
-</declare-styleable>
+</attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="liteMode"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/><attr format="boolean" name="uiMapToolbar"/><attr format="boolean" name="ambientEnabled"/><attr format="float" name="cameraMinZoomPreference"/><attr format="float" name="cameraMaxZoomPreference"/><attr format="float" name="latLngBoundsSouthWestLatitude"/><attr format="float" name="latLngBoundsSouthWestLongitude"/><attr format="float" name="latLngBoundsNorthEastLatitude"/><attr format="float" name="latLngBoundsNorthEastLongitude"/></declare-styleable>
     <declare-styleable name="MaterialMenuView"><attr format="color" name="mm_color"/><attr format="boolean" name="mm_visible"/><attr format="integer" name="mm_scale"/><attr format="integer" name="mm_transformDuration"/><attr format="integer" name="mm_strokeWidth"/><attr format="boolean" name="mm_rtlEnabled"/></declare-styleable>
     <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
     <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="alphabeticModifiers">
@@ -527,18 +477,14 @@
 
 <enum name="icon_only" value="2"/>
 
-</attr>
-<attr format="reference" name="colorScheme">
+</attr><attr format="reference" name="colorScheme">
 <enum name="dark" value="0"/>
 
 <enum name="light" value="1"/>
 
 <enum name="auto" value="2"/>
 
-</attr>
-
-<attr format="reference|string" name="scopeUris"/>
-</declare-styleable>
+</attr><attr format="reference|string" name="scopeUris"/></declare-styleable>
     <declare-styleable name="SimpleDraweeView"><attr format="string" name="actualImageUri"/><attr format="reference" name="actualImageResource"/><attr name="fadeDuration"/><attr name="viewAspectRatio"/><attr name="placeholderImage"/><attr name="placeholderImageScaleType"/><attr name="retryImage"/><attr name="retryImageScaleType"/><attr name="failureImage"/><attr name="failureImageScaleType"/><attr name="progressBarImage"/><attr name="progressBarImageScaleType"/><attr name="progressBarAutoRotateInterval"/><attr name="actualImageScaleType"/><attr name="backgroundImage"/><attr name="overlayImage"/><attr name="pressedStateOverlayImage"/><attr name="roundAsCircle"/><attr name="roundedCornerRadius"/><attr name="roundTopLeft"/><attr name="roundTopRight"/><attr name="roundBottomRight"/><attr name="roundBottomLeft"/><attr name="roundTopStart"/><attr name="roundTopEnd"/><attr name="roundBottomStart"/><attr name="roundBottomEnd"/><attr name="roundWithOverlayColor"/><attr name="roundingBorderWidth"/><attr name="roundingBorderColor"/><attr name="roundingBorderPadding"/></declare-styleable>
     <declare-styleable name="SnackbarLayout"><attr name="android:maxWidth"/><attr name="elevation"/><attr format="dimension" name="maxActionInlineWidth"/></declare-styleable>
     <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/></declare-styleable>
