@@ -6,6 +6,12 @@ import { connect } from "react-redux";
 
 import { authLogout } from "../../store/actions/index";
 class SideDrawer extends Component {
+
+  logOut = () => {
+    const str ='elad';
+    this.props.onLogout(str);
+  }
+  
   render() {
     return (
       <View
@@ -14,7 +20,7 @@ class SideDrawer extends Component {
           { width: Dimensions.get("window").width * 0.8 }
         ]}
       >
-      <TouchableOpacity onPress={this.props.onLogout}>
+      <TouchableOpacity onPress={this.logOut}>
         <View style={styles.darwItem}>
           <Icon name={Platform.OS === 'android' ? "md-log-out" : "ios-log-out"} size={30} color="#aaa" style={styles.drawItemIcon}/>
         <Text>Sign Out</Text>
@@ -44,7 +50,9 @@ const styles = StyleSheet.create({
 
 const mapDispatchToProps = dispatch => {
   return {
-    onLogout: () => dispatch(authLogout())
+    onLogout: (nav) => {
+      dispatch(authLogout(nav))
+    } 
   };
 };
 

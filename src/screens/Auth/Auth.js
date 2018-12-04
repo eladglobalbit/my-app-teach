@@ -78,7 +78,6 @@ class AuthScreen extends Component {
   };
 
   componentDidMount() {
-    alert('Auth start')
     this.props.onAutoSignIn(() => this.props.navigation.navigate('MyPlaces'));
   }
 
@@ -287,7 +286,7 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
   return {
     onTryAuth: (authData, authMode ,nav ) => dispatch(tryAuth(authData , authMode ,nav)),
-    onAutoSignIn: (nav) => dispatch(authAutoSignIn())
+    onAutoSignIn: (nav) => dispatch(authAutoSignIn(nav))
   };
 };
 

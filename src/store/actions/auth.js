@@ -8,12 +8,6 @@ import App from "../../../App";
 const API_KEY = "AIzaSyAtmNYtFqn7JuxhnqOzdXssM3mU1PGuwHU";
 
 
-const nav = NavigationActions.navigate({
-  routeName: 'MyRoute',
- // My route params
-  // in case you want to navigate into specific sub route
-  action: NavigationActions.navigate({ routeName: 'MyPlaces' })
-});
 
 export const tryAuth = (authData, authMode ,navgtion) => {
   return dispatch => {
@@ -173,10 +167,11 @@ export const authClearStorage = () => {
   };
 };
 
-export const authLogout = () => {
+export const authLogout = (nav) => {
+  console.log('here with',nav);
   return dispatch => {
     dispatch(authClearStorage()).then(() => {
-      App();
+      nav();
     });
     dispatch(authRemoveToken());
   };
