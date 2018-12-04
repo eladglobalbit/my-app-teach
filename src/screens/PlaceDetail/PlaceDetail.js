@@ -53,14 +53,14 @@ class PlaceDetail extends Component {
         <View style={styles.placeDetailContainer}>
           <View style={styles.subContainer}>
             <Image
-              source={this.props.selectedPlace.image}
+              source={this.props.navigation.state.params.selectedPlace.image}
               style={styles.placeImage}
             />
           </View>
           <View style={styles.subContainer}>
             <MapView
               initialRegion={{
-                ...this.props.selectedPlace.location,
+                ...this.props.navigation.state.params.selectedPlace.location,
                 latitudeDelta: 0.0122,
                 longitudeDelta:
                   Dimensions.get("window").width /
@@ -69,14 +69,14 @@ class PlaceDetail extends Component {
               }}
               style={styles.map}
             >
-              <MapView.Marker coordinate={this.props.selectedPlace.location} />
+              <MapView.Marker coordinate={this.props.navigation.state.params.selectedPlace.location} />
             </MapView>
           </View>
         </View>
         <View style={styles.subContainer}>
           <View>
             <Text style={styles.placeName}>
-              {this.props.selectedPlace.name}
+              {this.props.navigation.state.params.selectedPlace.name}
             </Text>
           </View>
           <View>

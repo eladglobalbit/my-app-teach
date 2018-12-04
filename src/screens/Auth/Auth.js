@@ -79,7 +79,7 @@ class AuthScreen extends Component {
 
   componentDidMount() {
     alert('Auth start')
-    this.props.onAutoSignIn();
+    this.props.onAutoSignIn(() => this.props.navigation.navigate('MyPlaces'));
   }
 
   authHandler = () => {
@@ -87,7 +87,7 @@ class AuthScreen extends Component {
       email: this.state.controls.email.value,
       password: this.state.controls.password.value
     };
-    this.props.onTryAuth(authData,this.state.authMode);
+    this.props.onTryAuth(authData,this.state.authMode , () => this.props.navigation.navigate('MyPlaces'));
   };
 
   updateInputState = (key, value) => {
@@ -286,8 +286,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    onTryAuth: (authData, authMode ) => dispatch(tryAuth(authData , authMode)),
-    onAutoSignIn: () => dispatch(authAutoSignIn())
+    onTryAuth: (authData, authMode ,nav ) => dispatch(tryAuth(authData , authMode ,nav)),
+    onAutoSignIn: (nav) => dispatch(authAutoSignIn())
   };
 };
 

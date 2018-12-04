@@ -47,18 +47,18 @@ class SharePlaceScreen extends Component {
 
   constructor(props) {
     super(props);
-    this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
+    // this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
   }
 
-  onNavigatorEvent = event => {
-    if (event.type === "NavBarButtonPress") {
-      if (event.id === "sideDrawerToggle") {
-        this.props.navigator.toggleDrawer({
-          side: "left"
-        });
-      }
-    }
-  };
+  // onNavigatorEvent = event => {
+  //   if (event.type === "NavBarButtonPress") {
+  //     if (event.id === "sideDrawerToggle") {
+  //       this.props.navigator.toggleDrawer({
+  //         side: "left"
+  //       });
+  //     }
+  //   }
+  // };
 
   placeNameChangedHandler = val => {
     this.setState(prevState => {

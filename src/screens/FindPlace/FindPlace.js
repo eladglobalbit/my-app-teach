@@ -24,23 +24,32 @@ class FindPlaceScreen extends Component {
 
   constructor(props) {
     super(props);
-    this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
+    this.props.onLoadPlaces();
+    // this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
   }
 
-  onNavigatorEvent = event => {
-    if (event.type === "ScreenChangedEvent") {
-      if (event.id === "willAppear") {
-        this.props.onLoadPlaces();
-      }
-    }
-    if (event.type === "NavBarButtonPress") {
-      if (event.id === "sideDrawerToggle") {
-        this.props.navigator.toggleDrawer({
-          side: "left"
-        });
-      }
-    }
-  };
+  // onNavigatorEvent = event => {
+  //   if (event.type === "ScreenChangedEvent") {
+  //     if (event.id === "willAppear") {
+  //       this.props.onLoadPlaces();
+  //     }
+  //   }
+  //   if (event.type === "NavBarButtonPress") {
+  //     if (event.id === "sideDrawerToggle") {
+  //       this.props.navigator.toggleDrawer({
+  //         side: "left"
+  //       });
+  //     }
+  //   }
+  // };
+
+  loadPlaces = () => {
+    this.props.onLoadPlaces();
+  }
+
+  componentDidMount () {
+    this.props.navigation.addListener('willFocus', this.loadPlaces );
+  } 
 
   placesLoadedHandler = () => {
     Animated.timing(this.state.placesAnim, {
@@ -67,14 +76,17 @@ class FindPlaceScreen extends Component {
     const selPlace = this.props.places.find(place => {
       return place.key === key;
     });
-    this.props.navigator.push({
-      screen: "my-app.PlaceDetailScreen",
-      title: selPlace.name,
-      passProps: {
+    this.props.navigation.navigate(
+      "PlaceDetail",
+      { 
+        title: selPlace.name,
         selectedPlace: selPlace
-      }
     });
   };
+
+  componentWillUnmount(){
+    this.props.navigation.removeEventListener('willFocus', this.loadPlaces);
+  }
 
   render() {
     let content = (
@@ -91,6 +103,7 @@ class FindPlaceScreen extends Component {
           ]
         }}
       >
+      
         <TouchableOpacity onPress={this.placesSearchHandler}>
           <View style={styles.searchButton}>
             <Text style={styles.searchButtonText}>Find Places</Text>

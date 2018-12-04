@@ -1,33 +1,83 @@
 
 import AuthScreen from '../screens/Auth/Auth'
 import React,{Component} from 'react';
-import {TouchableOpacity , Text} from 'react-native';
-import { createBottomTabNavigator ,StackNavigator , createDrawerNavigator} from "react-navigation";
+import {TouchableOpacity , Text , View} from 'react-native';
+import { createBottomTabNavigator ,StackNavigator , createStackNavigator ,createSwitchNavigator,DrawerNavigator } from "react-navigation";
 import SharePlaceScreen from '../screens/SharePlace/SharePlace';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import FindPlaceScreen from '../screens/FindPlace/FindPlace';
-import  PlaceDetailScreen from '../screens/PlaceDetail/PlaceDetail';
-import SideDrawerScreen  from '../screens/SideDrawer/SideDrawer';
-import MapScreen from '../screens/Map/Map'
+import PlaceDetail from '../screens/PlaceDetail/PlaceDetail';
+import SideMenu from '../screens/SideMenu/SideMenu';
 
 
 
 
-
-
-export const Root = StackNavigator({
-  Auth: {
-    screen: AuthScreen,
+export const Tabs = createBottomTabNavigator({
+  HomeStack: {
+    screen: FindPlaceScreen,
+  },
+  Detail: {
+    screen: SharePlaceScreen,
   },
 }, {
-  mode: 'modal',
-  headerMode: 'none',
-  initialRouteName: 'Auth',
-  navigationOptions: {
-    gesturesEnabled: false,
+  tabBarOptions: {
+    scrollEnabled: false,
+    labelStyle: {
+      fontSize: 14,
+    },
+    style: {
+      backgroundColor: '#000',
+    },
+    indicatorStyle: {
+      backgroundColor: '#000',
+    },
   },
 });
 
-export const Drawer = createDrawerNavigator({
-  Root: Root,
-})
+
+const AppStack = StackNavigator({
+  MyPlaces : {
+    screen: Tabs,
+    navigationOptions: ({ navigation, screenProps }) => ({
+      headerTitle: <Text style={{flex: 1, textAlign: 'center', color: 'blue', fontSize: 32,marginLeft:-20}}>My places</Text>,
+      headerLeft: 
+        <View style={{flexDirection:'row'}}>
+          <TouchableOpacity underlayColor={"transparent"} style={{marginRight: 20}} onPress={navigation.openDrawer}><MaterialCommunityIcons name="menu" size={36}/></TouchableOpacity>
+        </View>
+      ,     
+    }),
+  },
+  PlaceDetail: {
+    screen: PlaceDetail,
+  },
+}, {
+  mode: 'modal',
+  initialRouteName: 'MyPlaces',
+  navigationOptions: {
+    gesturesEnabled: false,
+  },
+  cardStyle: { backgroundColor: '#FFFFFF' },
+});
+
+const AuthStack = createStackNavigator( { 
+  Auth: {
+  screen: AuthScreen
+ },
+});
+
+
+
+export const  Root =  DrawerNavigator(
+  {
+    App: AppStack,
+    Auth: AuthStack,
+  },
+  {
+    initialRouteName: 'Auth',
+    contentComponent: SideMenu,
+    drawerWidth: 300
+  } ,
+);
+
+
 

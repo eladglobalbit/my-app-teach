@@ -2,12 +2,20 @@ import { AsyncStorage } from "react-native";
 
 import { TRY_AUTH, AUTH_SET_TOKEN, AUTH_REMOVE_TOKEN } from "./actionTypes";
 import { uiStartLoading, uiStopLoading } from "./index";
-import startMainTabs from "../../screens/MainTabs/MainTabs";
+import { NavigationActions } from 'react-navigation';
 import App from "../../../App";
 
 const API_KEY = "AIzaSyAtmNYtFqn7JuxhnqOzdXssM3mU1PGuwHU";
 
-export const tryAuth = (authData, authMode) => {
+
+const nav = NavigationActions.navigate({
+  routeName: 'MyRoute',
+ // My route params
+  // in case you want to navigate into specific sub route
+  action: NavigationActions.navigate({ routeName: 'MyPlaces' })
+});
+
+export const tryAuth = (authData, authMode ,navgtion) => {
   return dispatch => {
     dispatch(uiStartLoading());
     let url =
@@ -48,7 +56,7 @@ export const tryAuth = (authData, authMode) => {
               parsedRes.refreshToken
             )
           );
-          startMainTabs();
+           navgtion()
         }
       });
   };
@@ -147,11 +155,11 @@ export const authGetToken = () => {
   };
 };
 
-export const authAutoSignIn = () => {
+export const authAutoSignIn = (nav) => {
   return dispatch => {
     dispatch(authGetToken())
       .then(token => {
-        startMainTabs();
+        nav()
       })
       .catch(err => console.log("Failed to fetch token!"));
   };
