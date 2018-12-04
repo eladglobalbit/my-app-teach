@@ -1,232 +1,140 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-33:12
-MERGED from [:react-native-navigation] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-20:12
-MERGED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-23:12
-MERGED from [:react-native-vector-icons] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/3deda30f1b6850338823528e1794061a/AndroidManifest.xml:2:1-15:12
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/0eb23757610499c94d6d10d9d07f876f/AndroidManifest.xml:2:1-14:12
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/e1d1e4987f71b98b530774b455a05903/AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:design:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/89419c69366474638cd60eff731b35ce/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/AndroidManifest.xml:17:1-22:12
-MERGED from [:react-native-maps] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-12:12
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/d160785d679fdcf11cf28603b3525026/AndroidManifest.xml:16:1-25:12
-MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/79176d3877d53dbd5b67cd96b49f0b71/AndroidManifest.xml:16:1-21:12
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/4e1d41e2729422cfbb0267c583874816/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/d866e82f17d96d17b73e648ad17a635c/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/f5559af4703acfe57a31d87e131bf36e/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/4b0b32e94f477ce23be81a7a4b9a58cb/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/d2267649445f250a1f25a17dfd3a3b5d/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/c6a5267e834bda3ad67d51ac0466634d/AndroidManifest.xml:2:1-13:12
-MERGED from [org.webkit:android-jsc:r174650] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/5632fb24c9c6564efd82a317e443851f/AndroidManifest.xml:1:1-3:12
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/bbb3d732e3857101fad39e9ae14b5e92/AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/99ae5b3300dc1d419a1978af2db32e04/AndroidManifest.xml:16:1-23:12
-MERGED from [com.android.support:support-v4:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/9979a089eca82b7d8bedbad317b2b576/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/275508f44adc1f7d8db919018f12c9bd/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/90e0846401961aa105a9bd080a4b7637/AndroidManifest.xml:17:1-22:12
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/30850285fbd555e3e3b5426bdbf5da9d/AndroidManifest.xml:2:1-14:12
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/7d3827bcafe0a3f8fa9b54d5582899fc/AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/2044243277a877d19ab124fdb0390b21/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/8f53a22a5b32461c8bd11e5fcfc200a7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/b6bdfd6feba8359eb4a2b4c126d7b9f4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/aa4f571725b8f6a321dad8e89db63867/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/e2d954f329525edc1bc16be9fa5adf61/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f1ffd2de0f7c9a2e55b7758a56d25fea/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/608e84de859bf75787c6ea10703509d3/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/9627de46d639f96e98b4e4bfb2ae4cb4/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/4274b5f524a42c3447227f553dc29291/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/af2e9d5262efb151f7fdaf557a34d8d7/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7673a2902c153c598326ebb0841be926/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-33:12
+ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/65c6a13353572ae03bd704dfb842a61b/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84b4e7fc76bcdddddee0e59084fd7c91/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/5a95339b8ec930782463c355ba70be96/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2733703530d543856f8f17542364b145/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6629d149b68408666af8e0d1b11586e0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/319bd7a11346c6a6d2b6d3df8904abcf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/a949fdde380c132df47ac9e54adaefd0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0ad14d9aacfc86ab215afbbbb0fe5760/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/f7153fb7481ece02c057b60ff53b59bf/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/03817f7f346a9e0e1603571b71e4b6b9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/5cfbdf24401744878286db1769e6f4ec/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/4c5b83bcaa2f5ccd6c3aa242f0a4dd2e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/77be77123318948e70bdb4db69b87a48/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/32b1927b6164f68736e4af6a4c726bb3/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/738c68badb4266b8ebbf9d0b9066ca7e/AndroidManifest.xml:1:1-3:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/3a1a621391a49c1741937d161537cc7c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/3d713c8eb24c9b75440caa0aa7e48d2f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/9717df96f06ce0e19c174463427d57f6/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/54d5b0a7c206445296af8874c7935dd6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3d23f288e29d4b97bcbfab12a0ab1b46/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-26:12
 	package
 		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:2:5-24
 		INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-26:12
 		INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-26:12
 		INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:4:5-67
-MERGED from [:react-native-maps] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-maps] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/d160785d679fdcf11cf28603b3525026/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/d160785d679fdcf11cf28603b3525026/AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/3deda30f1b6850338823528e1794061a/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/3deda30f1b6850338823528e1794061a/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/65c6a13353572ae03bd704dfb842a61b/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/65c6a13353572ae03bd704dfb842a61b/AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:5:22-75
-uses-permission#android.permission.CAMERA
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:7:5-65
-	android:name
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:7:22-62
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:8:5-80
-	android:name
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:8:22-78
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:9:6-79
-	android:name
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:9:23-77
 application
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:10:5-30:19
-MERGED from [:react-native-navigation] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
-MERGED from [:react-native-navigation] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
-MERGED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
-MERGED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
-MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/3deda30f1b6850338823528e1794061a/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/3deda30f1b6850338823528e1794061a/AndroidManifest.xml:13:5-20
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/0eb23757610499c94d6d10d9d07f876f/AndroidManifest.xml:12:5-20
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/0eb23757610499c94d6d10d9d07f876f/AndroidManifest.xml:12:5-20
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/e1d1e4987f71b98b530774b455a05903/AndroidManifest.xml:11:5-20
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/e1d1e4987f71b98b530774b455a05903/AndroidManifest.xml:11:5-20
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/d160785d679fdcf11cf28603b3525026/AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/d160785d679fdcf11cf28603b3525026/AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/79176d3877d53dbd5b67cd96b49f0b71/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/79176d3877d53dbd5b67cd96b49f0b71/AndroidManifest.xml:18:5-20:19
-MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/c6a5267e834bda3ad67d51ac0466634d/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/c6a5267e834bda3ad67d51ac0466634d/AndroidManifest.xml:11:5-20
-MERGED from [org.webkit:android-jsc:r174650] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/5632fb24c9c6564efd82a317e443851f/AndroidManifest.xml:2:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/5632fb24c9c6564efd82a317e443851f/AndroidManifest.xml:2:3-17
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/bbb3d732e3857101fad39e9ae14b5e92/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/bbb3d732e3857101fad39e9ae14b5e92/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/99ae5b3300dc1d419a1978af2db32e04/AndroidManifest.xml:19:5-21:19
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/99ae5b3300dc1d419a1978af2db32e04/AndroidManifest.xml:19:5-21:19
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/30850285fbd555e3e3b5426bdbf5da9d/AndroidManifest.xml:12:5-20
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/30850285fbd555e3e3b5426bdbf5da9d/AndroidManifest.xml:12:5-20
+ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/65c6a13353572ae03bd704dfb842a61b/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/65c6a13353572ae03bd704dfb842a61b/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/32b1927b6164f68736e4af6a4c726bb3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/32b1927b6164f68736e4af6a4c726bb3/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/738c68badb4266b8ebbf9d0b9066ca7e/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/738c68badb4266b8ebbf9d0b9066ca7e/AndroidManifest.xml:2:3-17
 	android:label
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:12:7-39
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:9:7-39
 	android:icon
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:13:7-41
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:10:7-41
 	android:allowBackup
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:14:7-34
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:15:7-38
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:12:7-38
 	android:name
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:11:7-38
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:8:7-38
 activity#com.myapp.MainActivity
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:16:7-25:18
+ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:13:7-22:18
 	android:label
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:18:9-41
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:15:9-41
 	android:windowSoftInputMode
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:20:9-51
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:17:9-51
 	android:configChanges
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:19:9-79
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:16:9-79
 	android:name
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:17:9-37
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:21:9-24:25
+ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:18:9-21:25
 action#android.intent.action.MAIN
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:22:13-65
+ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:19:13-65
 	android:name
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:22:21-62
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:19:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:23:13-73
+ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:20:13-73
 	android:name
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:23:23-70
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:20:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:26:7-84
-MERGED from [:react-native-navigation] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
-MERGED from [:react-native-navigation] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
-	android:exported
-		ADDED from [:react-native-navigation] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-37
+ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:23:7-84
 	android:name
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:26:17-81
-meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:27:10-29:63
-	android:value
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:29:6-61
-	android:name
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:28:6-51
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:23:17-81
 uses-sdk
 INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-navigation] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-navigation] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/3deda30f1b6850338823528e1794061a/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/3deda30f1b6850338823528e1794061a/AndroidManifest.xml:7:5-9:41
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/0eb23757610499c94d6d10d9d07f876f/AndroidManifest.xml:8:5-10:41
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/0eb23757610499c94d6d10d9d07f876f/AndroidManifest.xml:8:5-10:41
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/e1d1e4987f71b98b530774b455a05903/AndroidManifest.xml:7:5-9:41
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/e1d1e4987f71b98b530774b455a05903/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/89419c69366474638cd60eff731b35ce/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/89419c69366474638cd60eff731b35ce/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d1ea302da809e9e23176725c7598a752/AndroidManifest.xml:20:5-44
-MERGED from [:react-native-maps] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-maps] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/d160785d679fdcf11cf28603b3525026/AndroidManifest.xml:23:5-43
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/d160785d679fdcf11cf28603b3525026/AndroidManifest.xml:23:5-43
-MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/79176d3877d53dbd5b67cd96b49f0b71/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/79176d3877d53dbd5b67cd96b49f0b71/AndroidManifest.xml:17:5-43
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/4e1d41e2729422cfbb0267c583874816/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/4e1d41e2729422cfbb0267c583874816/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/d866e82f17d96d17b73e648ad17a635c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/d866e82f17d96d17b73e648ad17a635c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/f5559af4703acfe57a31d87e131bf36e/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/f5559af4703acfe57a31d87e131bf36e/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/4b0b32e94f477ce23be81a7a4b9a58cb/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/4b0b32e94f477ce23be81a7a4b9a58cb/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/d2267649445f250a1f25a17dfd3a3b5d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/d2267649445f250a1f25a17dfd3a3b5d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/c6a5267e834bda3ad67d51ac0466634d/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/c6a5267e834bda3ad67d51ac0466634d/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/bbb3d732e3857101fad39e9ae14b5e92/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/bbb3d732e3857101fad39e9ae14b5e92/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/99ae5b3300dc1d419a1978af2db32e04/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/99ae5b3300dc1d419a1978af2db32e04/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/9979a089eca82b7d8bedbad317b2b576/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/9979a089eca82b7d8bedbad317b2b576/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/275508f44adc1f7d8db919018f12c9bd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/275508f44adc1f7d8db919018f12c9bd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/90e0846401961aa105a9bd080a4b7637/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/90e0846401961aa105a9bd080a4b7637/AndroidManifest.xml:20:5-44
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/30850285fbd555e3e3b5426bdbf5da9d/AndroidManifest.xml:8:5-10:41
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/30850285fbd555e3e3b5426bdbf5da9d/AndroidManifest.xml:8:5-10:41
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/7d3827bcafe0a3f8fa9b54d5582899fc/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/7d3827bcafe0a3f8fa9b54d5582899fc/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/2044243277a877d19ab124fdb0390b21/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/2044243277a877d19ab124fdb0390b21/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/8f53a22a5b32461c8bd11e5fcfc200a7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/8f53a22a5b32461c8bd11e5fcfc200a7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/b6bdfd6feba8359eb4a2b4c126d7b9f4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/b6bdfd6feba8359eb4a2b4c126d7b9f4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/aa4f571725b8f6a321dad8e89db63867/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/aa4f571725b8f6a321dad8e89db63867/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/e2d954f329525edc1bc16be9fa5adf61/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/e2d954f329525edc1bc16be9fa5adf61/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f1ffd2de0f7c9a2e55b7758a56d25fea/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f1ffd2de0f7c9a2e55b7758a56d25fea/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/608e84de859bf75787c6ea10703509d3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/608e84de859bf75787c6ea10703509d3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/9627de46d639f96e98b4e4bfb2ae4cb4/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/9627de46d639f96e98b4e4bfb2ae4cb4/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/4274b5f524a42c3447227f553dc29291/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/4274b5f524a42c3447227f553dc29291/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/af2e9d5262efb151f7fdaf557a34d8d7/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/af2e9d5262efb151f7fdaf557a34d8d7/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7673a2902c153c598326ebb0841be926/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7673a2902c153c598326ebb0841be926/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/65c6a13353572ae03bd704dfb842a61b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/65c6a13353572ae03bd704dfb842a61b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84b4e7fc76bcdddddee0e59084fd7c91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84b4e7fc76bcdddddee0e59084fd7c91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/5a95339b8ec930782463c355ba70be96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/5a95339b8ec930782463c355ba70be96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2733703530d543856f8f17542364b145/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2733703530d543856f8f17542364b145/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6629d149b68408666af8e0d1b11586e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6629d149b68408666af8e0d1b11586e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/319bd7a11346c6a6d2b6d3df8904abcf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/319bd7a11346c6a6d2b6d3df8904abcf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/a949fdde380c132df47ac9e54adaefd0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/a949fdde380c132df47ac9e54adaefd0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0ad14d9aacfc86ab215afbbbb0fe5760/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0ad14d9aacfc86ab215afbbbb0fe5760/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/f7153fb7481ece02c057b60ff53b59bf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/f7153fb7481ece02c057b60ff53b59bf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/03817f7f346a9e0e1603571b71e4b6b9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/03817f7f346a9e0e1603571b71e4b6b9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/5cfbdf24401744878286db1769e6f4ec/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/5cfbdf24401744878286db1769e6f4ec/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/4c5b83bcaa2f5ccd6c3aa242f0a4dd2e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/4c5b83bcaa2f5ccd6c3aa242f0a4dd2e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/77be77123318948e70bdb4db69b87a48/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/77be77123318948e70bdb4db69b87a48/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/32b1927b6164f68736e4af6a4c726bb3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/32b1927b6164f68736e4af6a4c726bb3/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/3a1a621391a49c1741937d161537cc7c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/3a1a621391a49c1741937d161537cc7c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/3d713c8eb24c9b75440caa0aa7e48d2f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/3d713c8eb24c9b75440caa0aa7e48d2f/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/9717df96f06ce0e19c174463427d57f6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/9717df96f06ce0e19c174463427d57f6/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/54d5b0a7c206445296af8874c7935dd6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/54d5b0a7c206445296af8874c7935dd6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3d23f288e29d4b97bcbfab12a0ab1b46/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3d23f288e29d4b97bcbfab12a0ab1b46/AndroidManifest.xml:20:5-44
 INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -237,57 +145,9 @@ INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/androi
 		INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
-activity#com.reactnativenavigation.controllers.NavigationActivity
-ADDED from [:react-native-navigation] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-14:86
-	android:configChanges
-		ADDED from [:react-native-navigation] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-83
-	android:name
-		ADDED from [:react-native-navigation] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-84
-provider#com.imagepicker.FileProvider
-ADDED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-20:20
-	android:grantUriPermissions
-		ADDED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:13-47
-	android:authorities
-		ADDED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-60
-	android:exported
-		ADDED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:13-37
-	android:name
-		ADDED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-56
-meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-19:58
-	android:resource
-		ADDED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:17-55
-	android:name
-		ADDED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:17-67
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from [:react-native-maps] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:5-81
-	android:name
-		ADDED from [:react-native-maps] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:22-78
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/d160785d679fdcf11cf28603b3525026/AndroidManifest.xml:19:5-78
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/d160785d679fdcf11cf28603b3525026/AndroidManifest.xml:19:22-76
-uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/d160785d679fdcf11cf28603b3525026/AndroidManifest.xml:21:5-77
-	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/d160785d679fdcf11cf28603b3525026/AndroidManifest.xml:21:19-51
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/d160785d679fdcf11cf28603b3525026/AndroidManifest.xml:21:52-75
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/79176d3877d53dbd5b67cd96b49f0b71/AndroidManifest.xml:19:9-172
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/79176d3877d53dbd5b67cd96b49f0b71/AndroidManifest.xml:19:146-170
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/79176d3877d53dbd5b67cd96b49f0b71/AndroidManifest.xml:19:86-145
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/79176d3877d53dbd5b67cd96b49f0b71/AndroidManifest.xml:19:19-85
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-33:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-33:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/99ae5b3300dc1d419a1978af2db32e04/AndroidManifest.xml:20:9-121
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/99ae5b3300dc1d419a1978af2db32e04/AndroidManifest.xml:20:66-119
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/99ae5b3300dc1d419a1978af2db32e04/AndroidManifest.xml:20:20-65
+IMPLIED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
