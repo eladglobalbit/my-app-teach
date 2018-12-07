@@ -83,3 +83,36 @@ exports.storeImage = functions.https.onRequest((request, response) => {
       });
   });
 });
+
+
+exports.getCustomToken = functions.https.onRequest((request, response) => {
+  cors(request, response, () => {
+    if (
+      !request.headers.authorization ||
+      !request.headers.authorization.startsWith("Bearer ")
+    ) {
+      // console.log("No token present!");
+      response.status(403).json({ error: "Unauthorized" });
+      return;
+    }
+    let idToken;
+    idToken = request.headers.authorization.split("Bearer ")[1];
+    admin
+      .auth()
+      .verifyIdToken(idToken)
+      .then(decodedToken => {
+        let uid = decodedToken.uid;
+        admin.auth().createCustomToken(uid)
+        .then(function(customToken) {
+          response.status(201).json({customToken : customToken});
+        })
+        .catch(function(error) {
+          console.log("Error creating custom token:", error);
+        });
+      })
+      .catch(error => {
+        // console.log("Token is invalid!");
+        response.status(403).json({error: "Unauthorized"});
+      });
+  });
+});

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { View, Text, Dimensions, StyleSheet,TouchableOpacity , Platform} from "react-native";
+import { View, Text, Dimensions, StyleSheet,TouchableOpacity , Platform ,ScrollView} from "react-native";
 import Icon from 'react-native-vector-icons/Ionicons';
 
 import { connect } from "react-redux";
@@ -16,12 +16,20 @@ class SideMenu extends Component {
       <View
         style={styles.container}
       >
+      <ScrollView style={{flex:1}}>
       <TouchableOpacity onPress={this.logOut}>
         <View style={styles.darwItem}>
           <Icon name={Platform.OS === 'android' ? "md-log-out" : "ios-log-out"} size={30} color="#aaa" style={styles.drawItemIcon}/>
         <Text>Sign Out</Text>
         </View>
       </TouchableOpacity>
+      <TouchableOpacity onPress={() => this.props.navigation.navigate('Chat')}>
+        <View style={styles.darwItem}>
+          <Icon name={Platform.OS === 'android' ? "md-log-out" : "ios-log-out"} size={30} color="#aaa" style={styles.drawItemIcon}/>
+        <Text>Chat</Text>
+        </View>
+      </TouchableOpacity>
+      </ScrollView>
       </View>
     );
   }

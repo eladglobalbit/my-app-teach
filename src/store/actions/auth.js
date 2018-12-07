@@ -43,11 +43,13 @@ export const tryAuth = (authData, authMode ,navgtion) => {
         if (!parsedRes.idToken) {
           alert("Authentication failed, please try again!");
         } else {
+          console.log(parsedRes)
           dispatch(
             authStoreToken(
               parsedRes.idToken,
               parsedRes.expiresIn,
-              parsedRes.refreshToken
+              parsedRes.refreshToken,
+              parsedRes.localId
             )
           );
            navgtion()
@@ -56,22 +58,25 @@ export const tryAuth = (authData, authMode ,navgtion) => {
   };
 };
 
-export const authStoreToken = (token, expiresIn, refreshToken) => {
+export const authStoreToken = (token, expiresIn, refreshToken , uid) => {
   return dispatch => {
     const now = new Date();
     const expiryDate = now.getTime() + expiresIn * 1000;
-    dispatch(authSetToken(token, expiryDate));
+    dispatch(authSetToken(token, expiryDate,uid));
     AsyncStorage.setItem("ap:auth:token", token);
     AsyncStorage.setItem("ap:auth:expiryDate", expiryDate.toString());
     AsyncStorage.setItem("ap:auth:refreshToken", refreshToken);
+    AsyncStorage.setItem("ap:auth:uid", uid);
   };
 };
 
-export const authSetToken = (token, expiryDate) => {
+export const authSetToken = (token, expiryDate , uid) => {
+  console.log(uid);
   return {
     type: AUTH_SET_TOKEN,
     token: token,
-    expiryDate: expiryDate
+    expiryDate: expiryDate ,
+    uid : uid
   };
 };
 
@@ -96,7 +101,11 @@ export const authGetToken = () => {
             const parsedExpiryDate = new Date(parseInt(expiryDate));
             const now = new Date();
             if (parsedExpiryDate > now) {
-              dispatch(authSetToken(fetchedToken));
+              AsyncStorage.getItem("ap:auth:uid")
+              .catch(err => reject())
+              .then( uid => {
+                dispatch(authSetToken(fetchedToken,null ,uid));
+              })
               resolve(fetchedToken);
             } else {
               reject();
@@ -130,7 +139,8 @@ export const authGetToken = () => {
                 authStoreToken(
                   parsedRes.id_token,
                   parsedRes.expires_in,
-                  parsedRes.refresh_token
+                  parsedRes.refresh_token,
+                  parsedRes.localId
                 )
               );
               return parsedRes.id_token;

@@ -8,6 +8,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import FindPlaceScreen from '../screens/FindPlace/FindPlace';
 import PlaceDetail from '../screens/PlaceDetail/PlaceDetail';
 import SideMenu from '../screens/SideMenu/SideMenu';
+import Chat from '../screens/Chat/Chat'
 
 
 
@@ -49,6 +50,8 @@ const AppStack = StackNavigator({
   },
   PlaceDetail: {
     screen: PlaceDetail,
+  },Chat: {
+    screen: Chat,
   },
 }, {
   mode: 'modal',

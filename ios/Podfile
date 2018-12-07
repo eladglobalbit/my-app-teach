@@ -42,6 +42,8 @@ target 'myapp' do
 
     pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
 
+    pod 'RNFS', :path => '../node_modules/react-native-fs'
+
   end
   
   post_install do |installer|
