@@ -1,0 +1,4 @@
+#Sat Dec 08 18:28:09 IST 2018
+base.0=/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

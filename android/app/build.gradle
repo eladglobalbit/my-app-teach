@@ -95,7 +95,7 @@ def enableProguardInReleaseBuilds = false
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.myapp"
@@ -148,7 +148,6 @@ android {
 }
 
 dependencies {
-    compile project(':react-native-fs')
     compile project(':react-native-vector-icons')
     compile project(':react-native-maps')
     compile project(':react-native-image-picker')
