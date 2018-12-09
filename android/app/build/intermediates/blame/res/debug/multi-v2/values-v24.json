@@ -4,7 +4,7 @@
             "outputFile": "/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/442491cf1d9f74c60fa2b8a6c50b246f/res/values-v24/values-v24.xml",
+                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/002d79de31b3689c2be78c23226d77cb/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f7dee10c41e2efa7b163140bc0f81a56/res/values-v24/values-v24.xml",
+                    "source": "/Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9dc91e298e44b7780f963f3c2c59f1da/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

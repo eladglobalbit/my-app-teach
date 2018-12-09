@@ -7,35 +7,46 @@ INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/androi
 MERGED from [:react-native-vector-icons] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-maps] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-12:12
 MERGED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-23:12
-MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8be281db6f93594d2fcf54cdf787e33/AndroidManifest.xml:2:1-15:12
-MERGED from [com.android.support:design:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/49cce0c40c90601a131b2b955bf655a2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f7dee10c41e2efa7b163140bc0f81a56/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/ecea08f12d4f2edf597a1fd278594041/AndroidManifest.xml:16:1-25:12
-MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/3c7e9d780be75ca0381ce388dc0ef86b/AndroidManifest.xml:16:1-21:12
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/06b55b0db9d4a6388511c6f13600a6e2/AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/e1e23b9ba37c291892f6f675e85686b4/AndroidManifest.xml:16:1-23:12
-MERGED from [com.android.support:support-v4:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/8aff1261009771821e53cd9b09c15a75/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/04cd67f2f8f135809a3972bd833cd909/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/990cd6723cec2ae6eb34ebcfd31ebbd3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/278edfb16fe06c5ff1044bd07e1ace22/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/4ad3e7e91de16068ca586d5e21543a6e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e2517900a1581d648cb1b197a916b609/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/4fd4600bfdddf32c1fd41bb72082623e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/3cb9aea62d15e4cf2886131c5d71b2f1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/442491cf1d9f74c60fa2b8a6c50b246f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6b3be07eeba04e1e3dd59f3d214e42db/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/4237bec508098b9ccc9183bffc1c4b4c/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/5c7dc08000107691409702f4ff06e68b/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/9171cbc7d32789359d61e878b18d6a53/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/77079f1ef88a605e5d7ef6125087a9d7/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/e6ae1b7542c915bceabfe89acebba258/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/ea09296e76c0fe5153075f04bc793c98/AndroidManifest.xml:2:1-13:12
-MERGED from [org.webkit:android-jsc:r174650] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/45c0f01ba2a7a004a77dbe400baa88ed/AndroidManifest.xml:1:1-3:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/884f2eaf590f67284ae103acb7977247/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a1a37dfd5497fbb472cac5d66c6d19f4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/f606c9f1280d24957d8ab42e911bf1c9/AndroidManifest.xml:2:1-9:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/463818ade3fbb01f7d0d4032753b5e14/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/78ee75862d0af2d5b801067fe8bc8178/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/3aadb3f5bfab639c807c7c68b82dc020/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:design:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/49d1105dde957e35109f634965dc89b3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9dc91e298e44b7780f963f3c2c59f1da/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/2bcfae4101964156b24e2dab64bf2d95/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/eedcb12255db2fa4eba8462d20de0bee/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0e0d264155864c4477c0943fd4cdba0a/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/6480160080b5cbc71b3ee47fb3d74f99/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/cd4c860f37fe6f25336e2c5e1d99c2fa/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/a1d4b0b444a5e27da9d791629898c144/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/61241286662d05bddd38da9fe12d87b7/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ed62bdebe7063861e8d8bbd4157217dd/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/cbfe4f347adb323d9d97f3088040918b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/af5fde7a06fec21951cbecb568edebee/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/43aefdc67cb618101922870ce782976b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/bd06db26c1a7a845b6b68641416315c0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/dab06ec77d3835a1a72668db840bdf34/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6bc6036a4ebb611cba9a40a608b4ff5d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9748fb93a21bf88d6ff7e182e6c324a8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/95a3a88db8bb782c1f96dd3f6512dba7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/926fe99b4219771c39bf1243660c2b05/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/469b061271cf5675acc734ca4754bf7a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/90c325988d6f9e291ec8c7c85efd5c16/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/decf2888b19f9f48cc8fcc3c9d6ee510/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/002d79de31b3689c2be78c23226d77cb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b17be2f7ad0e54bd584df095da525a02/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/156e007c730b997df975626fcf7478ab/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/14287e1dd298c2e95b1f4c6a11a040d1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/c8267feee08b7cce78866733cc853524/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/114029035fc2667fcc248a0a88e5a038/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/08c40972bc18e181027becc0d59b2786/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/e1deade902f4329b5ca7ca43cbbd0603/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/e139ac497219a3e4243d6870d9e3d7a7/AndroidManifest.xml:1:1-3:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/149e0a56a7744165ae0798dedbeac799/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/b7a8f3e25c1095eb542d7359be6c121d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/68502cc266e4c0a5788324ce4267f4a4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/4c161435fbe0803fa37f021c06e2a6a0/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fa168624b70de69555b3a4f3852c4ff8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b88799e42f574950982474040e8a7dbf/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-31:12
 INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-31:12
 INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-31:12
@@ -57,14 +68,22 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:4:5-67
 MERGED from [:react-native-maps] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-67
 MERGED from [:react-native-maps] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-67
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/ecea08f12d4f2edf597a1fd278594041/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/ecea08f12d4f2edf597a1fd278594041/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/eedcb12255db2fa4eba8462d20de0bee/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/eedcb12255db2fa4eba8462d20de0bee/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0e0d264155864c4477c0943fd4cdba0a/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0e0d264155864c4477c0943fd4cdba0a/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/6480160080b5cbc71b3ee47fb3d74f99/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/6480160080b5cbc71b3ee47fb3d74f99/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8be281db6f93594d2fcf54cdf787e33/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8be281db6f93594d2fcf54cdf787e33/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/3aadb3f5bfab639c807c7c68b82dc020/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/3aadb3f5bfab639c807c7c68b82dc020/AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:5:22-75
 uses-permission#android.permission.CAMERA
@@ -79,20 +98,42 @@ application
 ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:9:5-29:19
 MERGED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-21:19
 MERGED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-21:19
-MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8be281db6f93594d2fcf54cdf787e33/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8be281db6f93594d2fcf54cdf787e33/AndroidManifest.xml:13:5-20
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/ecea08f12d4f2edf597a1fd278594041/AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/ecea08f12d4f2edf597a1fd278594041/AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/3c7e9d780be75ca0381ce388dc0ef86b/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/3c7e9d780be75ca0381ce388dc0ef86b/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/06b55b0db9d4a6388511c6f13600a6e2/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/06b55b0db9d4a6388511c6f13600a6e2/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/e1e23b9ba37c291892f6f675e85686b4/AndroidManifest.xml:19:5-21:19
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/e1e23b9ba37c291892f6f675e85686b4/AndroidManifest.xml:19:5-21:19
-MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/ea09296e76c0fe5153075f04bc793c98/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/ea09296e76c0fe5153075f04bc793c98/AndroidManifest.xml:11:5-20
-MERGED from [org.webkit:android-jsc:r174650] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/45c0f01ba2a7a004a77dbe400baa88ed/AndroidManifest.xml:2:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/45c0f01ba2a7a004a77dbe400baa88ed/AndroidManifest.xml:2:3-17
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/3aadb3f5bfab639c807c7c68b82dc020/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/3aadb3f5bfab639c807c7c68b82dc020/AndroidManifest.xml:13:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/2bcfae4101964156b24e2dab64bf2d95/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/2bcfae4101964156b24e2dab64bf2d95/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/eedcb12255db2fa4eba8462d20de0bee/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/eedcb12255db2fa4eba8462d20de0bee/AndroidManifest.xml:30:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0e0d264155864c4477c0943fd4cdba0a/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0e0d264155864c4477c0943fd4cdba0a/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/6480160080b5cbc71b3ee47fb3d74f99/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/6480160080b5cbc71b3ee47fb3d74f99/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/cd4c860f37fe6f25336e2c5e1d99c2fa/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/cd4c860f37fe6f25336e2c5e1d99c2fa/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/a1d4b0b444a5e27da9d791629898c144/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/a1d4b0b444a5e27da9d791629898c144/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/61241286662d05bddd38da9fe12d87b7/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/61241286662d05bddd38da9fe12d87b7/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ed62bdebe7063861e8d8bbd4157217dd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ed62bdebe7063861e8d8bbd4157217dd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/cbfe4f347adb323d9d97f3088040918b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/cbfe4f347adb323d9d97f3088040918b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/af5fde7a06fec21951cbecb568edebee/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/af5fde7a06fec21951cbecb568edebee/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/43aefdc67cb618101922870ce782976b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/43aefdc67cb618101922870ce782976b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/bd06db26c1a7a845b6b68641416315c0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/bd06db26c1a7a845b6b68641416315c0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/e1deade902f4329b5ca7ca43cbbd0603/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/e1deade902f4329b5ca7ca43cbbd0603/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/e139ac497219a3e4243d6870d9e3d7a7/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/e139ac497219a3e4243d6870d9e3d7a7/AndroidManifest.xml:2:3-17
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/4c161435fbe0803fa37f021c06e2a6a0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/4c161435fbe0803fa37f021c06e2a6a0/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:11:7-39
 	android:icon
@@ -143,62 +184,84 @@ MERGED from [:react-native-maps] /Users/eladnisan/Desktop/react-native-projects/
 MERGED from [:react-native-maps] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8be281db6f93594d2fcf54cdf787e33/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8be281db6f93594d2fcf54cdf787e33/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/49cce0c40c90601a131b2b955bf655a2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/49cce0c40c90601a131b2b955bf655a2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f7dee10c41e2efa7b163140bc0f81a56/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f7dee10c41e2efa7b163140bc0f81a56/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/ecea08f12d4f2edf597a1fd278594041/AndroidManifest.xml:23:5-43
-MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/ecea08f12d4f2edf597a1fd278594041/AndroidManifest.xml:23:5-43
-MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/3c7e9d780be75ca0381ce388dc0ef86b/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/3c7e9d780be75ca0381ce388dc0ef86b/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/06b55b0db9d4a6388511c6f13600a6e2/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/06b55b0db9d4a6388511c6f13600a6e2/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/e1e23b9ba37c291892f6f675e85686b4/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/e1e23b9ba37c291892f6f675e85686b4/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/8aff1261009771821e53cd9b09c15a75/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/8aff1261009771821e53cd9b09c15a75/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/04cd67f2f8f135809a3972bd833cd909/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/04cd67f2f8f135809a3972bd833cd909/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/990cd6723cec2ae6eb34ebcfd31ebbd3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/990cd6723cec2ae6eb34ebcfd31ebbd3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/278edfb16fe06c5ff1044bd07e1ace22/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/278edfb16fe06c5ff1044bd07e1ace22/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/4ad3e7e91de16068ca586d5e21543a6e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/4ad3e7e91de16068ca586d5e21543a6e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e2517900a1581d648cb1b197a916b609/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e2517900a1581d648cb1b197a916b609/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/4fd4600bfdddf32c1fd41bb72082623e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/4fd4600bfdddf32c1fd41bb72082623e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/3cb9aea62d15e4cf2886131c5d71b2f1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/3cb9aea62d15e4cf2886131c5d71b2f1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/442491cf1d9f74c60fa2b8a6c50b246f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/442491cf1d9f74c60fa2b8a6c50b246f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6b3be07eeba04e1e3dd59f3d214e42db/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6b3be07eeba04e1e3dd59f3d214e42db/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/4237bec508098b9ccc9183bffc1c4b4c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/4237bec508098b9ccc9183bffc1c4b4c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/5c7dc08000107691409702f4ff06e68b/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/5c7dc08000107691409702f4ff06e68b/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/9171cbc7d32789359d61e878b18d6a53/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/9171cbc7d32789359d61e878b18d6a53/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/77079f1ef88a605e5d7ef6125087a9d7/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/77079f1ef88a605e5d7ef6125087a9d7/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/e6ae1b7542c915bceabfe89acebba258/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/e6ae1b7542c915bceabfe89acebba258/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/ea09296e76c0fe5153075f04bc793c98/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/ea09296e76c0fe5153075f04bc793c98/AndroidManifest.xml:7:5-9:41
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/884f2eaf590f67284ae103acb7977247/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/884f2eaf590f67284ae103acb7977247/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a1a37dfd5497fbb472cac5d66c6d19f4/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a1a37dfd5497fbb472cac5d66c6d19f4/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/f606c9f1280d24957d8ab42e911bf1c9/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/f606c9f1280d24957d8ab42e911bf1c9/AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/463818ade3fbb01f7d0d4032753b5e14/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/463818ade3fbb01f7d0d4032753b5e14/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/78ee75862d0af2d5b801067fe8bc8178/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/78ee75862d0af2d5b801067fe8bc8178/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/3aadb3f5bfab639c807c7c68b82dc020/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/3aadb3f5bfab639c807c7c68b82dc020/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/49d1105dde957e35109f634965dc89b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/49d1105dde957e35109f634965dc89b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9dc91e298e44b7780f963f3c2c59f1da/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9dc91e298e44b7780f963f3c2c59f1da/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/2bcfae4101964156b24e2dab64bf2d95/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/2bcfae4101964156b24e2dab64bf2d95/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/eedcb12255db2fa4eba8462d20de0bee/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/eedcb12255db2fa4eba8462d20de0bee/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0e0d264155864c4477c0943fd4cdba0a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0e0d264155864c4477c0943fd4cdba0a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/6480160080b5cbc71b3ee47fb3d74f99/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/6480160080b5cbc71b3ee47fb3d74f99/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/cd4c860f37fe6f25336e2c5e1d99c2fa/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/cd4c860f37fe6f25336e2c5e1d99c2fa/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/a1d4b0b444a5e27da9d791629898c144/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/a1d4b0b444a5e27da9d791629898c144/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/61241286662d05bddd38da9fe12d87b7/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/61241286662d05bddd38da9fe12d87b7/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ed62bdebe7063861e8d8bbd4157217dd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ed62bdebe7063861e8d8bbd4157217dd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/cbfe4f347adb323d9d97f3088040918b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/cbfe4f347adb323d9d97f3088040918b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/af5fde7a06fec21951cbecb568edebee/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/af5fde7a06fec21951cbecb568edebee/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/43aefdc67cb618101922870ce782976b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/43aefdc67cb618101922870ce782976b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/bd06db26c1a7a845b6b68641416315c0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/bd06db26c1a7a845b6b68641416315c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/dab06ec77d3835a1a72668db840bdf34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/dab06ec77d3835a1a72668db840bdf34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6bc6036a4ebb611cba9a40a608b4ff5d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6bc6036a4ebb611cba9a40a608b4ff5d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9748fb93a21bf88d6ff7e182e6c324a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9748fb93a21bf88d6ff7e182e6c324a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/95a3a88db8bb782c1f96dd3f6512dba7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/95a3a88db8bb782c1f96dd3f6512dba7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/926fe99b4219771c39bf1243660c2b05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/926fe99b4219771c39bf1243660c2b05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/469b061271cf5675acc734ca4754bf7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/469b061271cf5675acc734ca4754bf7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/90c325988d6f9e291ec8c7c85efd5c16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/90c325988d6f9e291ec8c7c85efd5c16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/decf2888b19f9f48cc8fcc3c9d6ee510/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/decf2888b19f9f48cc8fcc3c9d6ee510/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/002d79de31b3689c2be78c23226d77cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/002d79de31b3689c2be78c23226d77cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b17be2f7ad0e54bd584df095da525a02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b17be2f7ad0e54bd584df095da525a02/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/156e007c730b997df975626fcf7478ab/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/156e007c730b997df975626fcf7478ab/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/14287e1dd298c2e95b1f4c6a11a040d1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/14287e1dd298c2e95b1f4c6a11a040d1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/c8267feee08b7cce78866733cc853524/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/c8267feee08b7cce78866733cc853524/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/114029035fc2667fcc248a0a88e5a038/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/114029035fc2667fcc248a0a88e5a038/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/08c40972bc18e181027becc0d59b2786/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/08c40972bc18e181027becc0d59b2786/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/e1deade902f4329b5ca7ca43cbbd0603/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/e1deade902f4329b5ca7ca43cbbd0603/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/149e0a56a7744165ae0798dedbeac799/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/149e0a56a7744165ae0798dedbeac799/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/b7a8f3e25c1095eb542d7359be6c121d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/b7a8f3e25c1095eb542d7359be6c121d/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/68502cc266e4c0a5788324ce4267f4a4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/68502cc266e4c0a5788324ce4267f4a4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/4c161435fbe0803fa37f021c06e2a6a0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/4c161435fbe0803fa37f021c06e2a6a0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fa168624b70de69555b3a4f3852c4ff8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fa168624b70de69555b3a4f3852c4ff8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b88799e42f574950982474040e8a7dbf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b88799e42f574950982474040e8a7dbf/AndroidManifest.xml:20:5-44
 INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -230,29 +293,187 @@ ADDED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-pr
 	android:name
 		ADDED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:18:17-67
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/ecea08f12d4f2edf597a1fd278594041/AndroidManifest.xml:19:5-78
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/eedcb12255db2fa4eba8462d20de0bee/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0e0d264155864c4477c0943fd4cdba0a/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0e0d264155864c4477c0943fd4cdba0a/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/6480160080b5cbc71b3ee47fb3d74f99/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/6480160080b5cbc71b3ee47fb3d74f99/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/ecea08f12d4f2edf597a1fd278594041/AndroidManifest.xml:19:22-76
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/eedcb12255db2fa4eba8462d20de0bee/AndroidManifest.xml:23:22-76
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/ecea08f12d4f2edf597a1fd278594041/AndroidManifest.xml:21:5-77
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/eedcb12255db2fa4eba8462d20de0bee/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/ecea08f12d4f2edf597a1fd278594041/AndroidManifest.xml:21:19-51
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/eedcb12255db2fa4eba8462d20de0bee/AndroidManifest.xml:27:9-41
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/ecea08f12d4f2edf597a1fd278594041/AndroidManifest.xml:21:52-75
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/3c7e9d780be75ca0381ce388dc0ef86b/AndroidManifest.xml:19:9-172
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/3c7e9d780be75ca0381ce388dc0ef86b/AndroidManifest.xml:19:146-170
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/3c7e9d780be75ca0381ce388dc0ef86b/AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/eedcb12255db2fa4eba8462d20de0bee/AndroidManifest.xml:28:9-32
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0e0d264155864c4477c0943fd4cdba0a/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/6480160080b5cbc71b3ee47fb3d74f99/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/6480160080b5cbc71b3ee47fb3d74f99/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/3c7e9d780be75ca0381ce388dc0ef86b/AndroidManifest.xml:19:19-85
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/e1e23b9ba37c291892f6f675e85686b4/AndroidManifest.xml:20:9-121
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0e0d264155864c4477c0943fd4cdba0a/AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0e0d264155864c4477c0943fd4cdba0a/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0e0d264155864c4477c0943fd4cdba0a/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0e0d264155864c4477c0943fd4cdba0a/AndroidManifest.xml:28:13-30:85
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/e1e23b9ba37c291892f6f675e85686b4/AndroidManifest.xml:20:66-119
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0e0d264155864c4477c0943fd4cdba0a/AndroidManifest.xml:30:17-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.2.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/e1e23b9ba37c291892f6f675e85686b4/AndroidManifest.xml:20:20-65
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/0e0d264155864c4477c0943fd4cdba0a/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/6480160080b5cbc71b3ee47fb3d74f99/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/6480160080b5cbc71b3ee47fb3d74f99/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/6480160080b5cbc71b3ee47fb3d74f99/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/6480160080b5cbc71b3ee47fb3d74f99/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/3a74ee32457cdf45d0283e320de62fcd/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:29:9-63
+permission#com.myapp.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:32:22-76
+uses-permission#com.myapp.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.myapp
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:48:27-58
+category#com.myapp
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:57:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/5be92f65096393267f4b87bfdd22b3ad/AndroidManifest.xml:60:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/a1d4b0b444a5e27da9d791629898c144/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/a1d4b0b444a5e27da9d791629898c144/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/a1d4b0b444a5e27da9d791629898c144/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/a1d4b0b444a5e27da9d791629898c144/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/61241286662d05bddd38da9fe12d87b7/AndroidManifest.xml:9:9-13:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/61241286662d05bddd38da9fe12d87b7/AndroidManifest.xml:11:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/61241286662d05bddd38da9fe12d87b7/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/61241286662d05bddd38da9fe12d87b7/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/61241286662d05bddd38da9fe12d87b7/AndroidManifest.xml:10:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/bd06db26c1a7a845b6b68641416315c0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/bd06db26c1a7a845b6b68641416315c0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/bd06db26c1a7a845b6b68641416315c0/AndroidManifest.xml:24:13-58
 uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-31:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE

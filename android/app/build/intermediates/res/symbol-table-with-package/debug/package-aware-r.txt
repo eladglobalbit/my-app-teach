@@ -1179,6 +1179,7 @@ string common_google_play_services_enable_title
 string common_google_play_services_install_button
 string common_google_play_services_install_text
 string common_google_play_services_install_title
+string common_google_play_services_notification_channel_name
 string common_google_play_services_notification_ticker
 string common_google_play_services_unknown_issue
 string common_google_play_services_unsupported_text
@@ -1190,6 +1191,13 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string default_web_client_id
+string firebase_database_url
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string image_button_description
 string image_description
 string link_description
@@ -1198,6 +1206,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string project_id
 string search_description
 string search_menu_title
 string status_bar_notification_info_overflow
