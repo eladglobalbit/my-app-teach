@@ -1,5 +1,5 @@
-import * as firebase from "firebase";
-
+// import * as firebase from "firebase";
+import firebase from 'react-native-firebase';
 
 const config = {
     apiKey: "AIzaSyAtmNYtFqn7JuxhnqOzdXssM3mU1PGuwHU",

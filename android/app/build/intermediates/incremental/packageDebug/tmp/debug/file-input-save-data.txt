@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Dec 09 11:31:44 IST 2018
+#Sun Dec 09 11:44:53 IST 2018
 5.base=/Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
 22.path=fonts/Octicons.ttf
 32.set=NATIVE_RESOURCE

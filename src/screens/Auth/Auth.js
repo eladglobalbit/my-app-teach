@@ -78,7 +78,7 @@ class AuthScreen extends Component {
   };
 
   componentDidMount() {
-    this.props.onAutoSignIn(() => this.props.navigation.navigate('MyPlaces'));
+    // this.props.onAutoSignIn(() => this.props.navigation.navigate('MyPlaces'));
   }
 
   authHandler = () => {
@@ -86,6 +86,7 @@ class AuthScreen extends Component {
       email: this.state.controls.email.value,
       password: this.state.controls.password.value
     };
+    console.log(authData)
     this.props.onTryAuth(authData,this.state.authMode , () => this.props.navigation.navigate('MyPlaces'));
   };
 

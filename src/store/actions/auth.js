@@ -11,6 +11,13 @@ const API_KEY = "AIzaSyAtmNYtFqn7JuxhnqOzdXssM3mU1PGuwHU";
 
 export const tryAuth = (authData, authMode ,navgtion) => {
   return dispatch => {
+    console.log(authData)
+    console.log(authMode)
+    console.log(JSON.stringify({
+      email: authData.email,
+      password: authData.password,
+      returnSecureToken: true
+    }));
     dispatch(uiStartLoading());
     let url =
       "https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=" +
@@ -165,7 +172,7 @@ export const authAutoSignIn = (nav) => {
       .then(token => {
         nav()
       })
-      .catch(err => console.log("Failed to fetch token!"));
+      .catch(err => console.log("Failed to fetch token!", err));
   };
 };
 

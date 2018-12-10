@@ -76,7 +76,7 @@ export const  Root =  DrawerNavigator(
     Auth: AuthStack,
   },
   {
-    initialRouteName: 'Auth',
+    initialRouteName: 'App',
     contentComponent: SideMenu,
     drawerWidth: 300
   } ,

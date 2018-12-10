@@ -12,6 +12,7 @@
     "firebase-admin": "^6.3.0",
     "react": "16.6.0-alpha.8af6728",
     "react-native": "^0.57.4",
+    "react-native-firebase": "^5.1.1",
     "react-native-gifted-chat": "^0.3.0",
     "react-native-image-picker": "^0.27.1",
     "react-native-maps": "^0.15.3",
