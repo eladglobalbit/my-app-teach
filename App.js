@@ -2,6 +2,7 @@
 import React, {Component} from 'react';
 import { AsyncStorage ,View , Text } from 'react-native';
 import firebase from 'react-native-firebase';
+import {  Root , Drawer} from './src/config/router';
 
 export default class App extends Component {
 
@@ -110,9 +111,7 @@ constructor(props){
 
   render() {
     return (
-      <View style={{flex: 1}}>
-        <Text>Welcome to React Native!</Text>
-      </View>
+       <Root />
     );
   }
   componentWillUnmount() {
@@ -123,8 +122,7 @@ constructor(props){
 
 }
 
-// import React, { Component } from 'react';
-// import {  Root , Drawer} from './src/config/router';
+
 
 // class App extends Component {
 //   constructor(props){

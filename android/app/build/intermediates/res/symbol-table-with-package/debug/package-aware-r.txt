@@ -812,6 +812,8 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable navigation_empty_icon
+drawable node_modules_reactnavigationstack_dist_views_assets_backicon
+drawable node_modules_reactnavigationstack_dist_views_assets_backiconmask
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -824,6 +826,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable src_assest_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
