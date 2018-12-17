@@ -5,7 +5,7 @@ import App from './App';
 import {name as appName} from './app.json';
 import { Provider } from 'react-redux';
 import configureStore from './src/store/configureStore';
-
+import bgMessaging from "./src/bgMessaging";
 const store = configureStore();
 
 const RNRedux = () => (
@@ -15,3 +15,8 @@ const RNRedux = () => (
 );
 
 AppRegistry.registerComponent(appName, () => RNRedux);
+AppRegistry.registerHeadlessTask(
+    "RNFirebaseBackgroundMessage",
+    () => bgMessaging
+  
+  );

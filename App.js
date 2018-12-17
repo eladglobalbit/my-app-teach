@@ -27,8 +27,6 @@ export default class App extends Component {
             .getToken()
             .then(token => {
               console.log(token);
-              this.notificationListener = this.initNotificationsListener();
-              this.notificationOpenListener = this.initNotificationOpenedListener();
             });
           // user has permissions
         } else {
@@ -36,8 +34,6 @@ export default class App extends Component {
             .messaging()
             .requestPermission()
             .then(() => {
-              this.notificationListener = this.initNotificationsListener();
-              this.notificationOpenListener = this.initNotificationOpenedListener();
             })
             .catch(error => {
               console.log(error);
@@ -47,17 +43,23 @@ export default class App extends Component {
         }
       });
 
-    this.initNotificationOpenedListener = () =>
-      firebase.notifications().onNotificationOpened(msg => {
-        // Get the action triggered by the notification being opened
-        const action = msg.action;
 
-        // Get information about the notification that was opened
-        const notificationOpened = msg.notification;
-        console.log("notificationOpened");
+
+      firebase
+      .notifications()
+      .getInitialNotification()
+      .then(notification => {
+        if (notification) {
+          console.log("notification opened", notification);
+        }
       });
 
-    this.initNotificationsListener = () => console.log("init notifications");
+
+    this.messageListener = firebase.messaging().onMessage((message) => {
+        // Process your message as required
+    });
+
+    
     firebase.notifications().onNotification(notification => {
       // Process your notification as required
       console.log("notification");
@@ -77,7 +79,7 @@ export default class App extends Component {
         local_notification: true
       })
         .setNotificationId(notification.notificationId)
-        .setTitle(notification.title)
+        .setTitle('this coming from app')
         .setSubtitle(notification.subtitle)
         .setBody(notification.body)
         .setData(notification.data)
@@ -96,9 +98,7 @@ export default class App extends Component {
   }
 
   componentWillUnmount() {
-    //this.messageListener();
-    this.notificationListener();
-    this.initNotificationOpenedListener();
+    this.messageListener();
   }
 
 
@@ -113,11 +113,6 @@ constructor(props){
     return (
        <Root />
     );
-  }
-  componentWillUnmount() {
-    //this.messageListener();
-    this.notificationListener();
-    this.initNotificationOpenedListener();
   }
 
 }
