@@ -16,8 +16,11 @@ import io.invertase.firebase.RNFirebasePackage;
 import io.invertase.firebase.messaging.RNFirebaseMessagingPackage;                       
 import io.invertase.firebase.notifications.RNFirebaseNotificationsPackage;
 import io.invertase.firebase.auth.RNFirebaseAuthPackage;
-public class MainApplication extends Application implements ReactApplication {
 
+
+import com.myapp.RNFirebaseBackgroundMessage;
+
+public class MainApplication extends Application implements ReactApplication {
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
     @Override
     public boolean getUseDeveloperSupport() {
@@ -52,6 +55,7 @@ public class MainApplication extends Application implements ReactApplication {
   @Override
   public void onCreate() {
     super.onCreate();
+    ///RNFirebaseBackgroundMessage.startService(getApplicationContext());
     SoLoader.init(this, /* native exopackage */ false);
   }
 }

@@ -55,9 +55,7 @@ export default class App extends Component {
       });
 
 
-    this.messageListener = firebase.messaging().onMessage((message) => {
-        // Process your message as required
-    });
+
 
     
     firebase.notifications().onNotification(notification => {
@@ -95,10 +93,12 @@ export default class App extends Component {
         .displayNotification(localNotification)
         .catch(err => console.error(err));
     });
+
+
   }
 
   componentWillUnmount() {
-    this.messageListener();
+
   }
 
 
