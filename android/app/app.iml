@@ -171,6 +171,7 @@
     <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable-27.1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement-16.1.0" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-core-utils-27.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: me.leolin:ShortcutBadger-1.1.21" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.infer.annotation:infer-annotation:0.11.2@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.react:react-native-0.57.4" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-maps-15.0.1" level="project" />

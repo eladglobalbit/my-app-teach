@@ -14,6 +14,7 @@ export default class App extends Component {
       firebase.notifications.Android.Importance.Max
     ).setDescription("A natural description of the channel");
     firebase.notifications().android.createChannel(channel);
+    
 
     this.notificationListener;
 
@@ -30,37 +31,63 @@ export default class App extends Component {
             });
           // user has permissions
         } else {
-          firebase
-            .messaging()
-            .requestPermission()
-            .then(() => {
-            })
-            .catch(error => {
-              console.log(error);
-              alert("Error", error);
-              // User has rejected permissions
-            });
+          try {
+            firebase.messaging().requestPermission();
+            // firebase
+            // .messaging()
+            // .getToken()
+            // .then(token => {
+            //   console.log(token);
+            // });
+        } catch (error) {
+            // User has rejected permissions
+        }
         }
       });
 
 
 
-      firebase
-      .notifications()
-      .getInitialNotification()
-      .then(notification => {
-        if (notification) {
+      // firebase
+      // .notifications()
+      // .getInitialNotification()
+      // .then(notification => {
+      //   if (notification) {
+      //     console.log("notification opened", notification);
+      //   }
+      // });
+
+      firebase.notifications().getInitialNotification()
+      .then((notificationOpen) => {
+        if (notificationOpen) {
+          // App was opened by a notification
+          // Get the action triggered by the notification being opened
+          const action = notificationOpen.action;
+          // Get information about the notification that was opened
+          const notification = notificationOpen.notification;  
           console.log("notification opened", notification);
         }
       });
 
 
 
+      this.notificationOpenedListener = firebase.notifications().onNotificationOpened((notificationOpen) => {
+        // Get the action triggered by the notification being opened
+        const action = notificationOpen.action;
+        // Get information about the notification that was opened
+        const notification = notificationOpen.notification;
 
-    
-    firebase.notifications().onNotification(notification => {
-      // Process your notification as required
-      console.log("notification");
+        console.log("notification opened", notification);
+    });
+
+
+      this.notificationDisplayedListener = firebase.notifications().onNotificationDisplayed((notification) => {
+
+     });
+    this.notificationListener = firebase.notifications().onNotification((notification) => {
+        // Process your notification as required
+           // Process your notification as required
+      console.log("notification",notification);
+      const { _data } = notification
       const {
         body,
         data,
@@ -68,7 +95,7 @@ export default class App extends Component {
         sound,
         subtitle,
         title
-      } = notification;
+      } = _data;
       console.log("LOG: ", title, body, JSON.stringify(data));
       const localNotification = new firebase.notifications.Notification({
         sound: "default",
@@ -78,13 +105,14 @@ export default class App extends Component {
       })
         .setNotificationId(notification.notificationId)
         .setTitle('this coming from app')
-        .setSubtitle(notification.subtitle)
-        .setBody(notification.body)
-        .setData(notification.data)
+        .setSubtitle(subtitle)
+        .setBody(body)
+        .setData(data)
         .android.setChannelId("Hip-chanelId") // e.g. the id you chose above
         .android.setSmallIcon("ic_launcher") // create this icon in Android Studio
         .android.setColor("#000000") // you can set a color here
         .android.setPriority(firebase.notifications.Android.Priority.High)
+        .setSound('default')
   
 
         console.log('notifoocion ')
@@ -94,11 +122,49 @@ export default class App extends Component {
         .catch(err => console.error(err));
     });
 
+    this.messageListener = firebase.messaging().onMessage((message) => {
+      console.log(message);
+      const { _data } = message
+      const {
+        body,
+        data,
+        notificationId,
+        sound,
+        subtitle,
+        title
+      } = _data;
+      console.log("LOG: ", title, body, JSON.stringify(data));
+      const localNotification = new firebase.notifications.Notification({
+        sound: "default",
+        show_in_foreground: true,
+        priority: "high",
+        local_notification: true
+      })
+        .setTitle('this coming from app')
+        .setSubtitle(subtitle)
+        .setBody(body)
+        .setData(data)
+        .android.setChannelId("Hip-chanelId") // e.g. the id you chose above
+        .android.setSmallIcon("ic_launcher") // create this icon in Android Studio
+        .android.setColor("#000000") // you can set a color here
+        .android.setPriority(firebase.notifications.Android.Priority.High)
+        .setSound('default')
+  
+
+        console.log('notifoocion ')
+      firebase
+        .notifications()
+        .displayNotification(localNotification)
+        .catch(err => console.error(err));
+  });
+
 
   }
 
   componentWillUnmount() {
-
+    this.notificationDisplayedListener();
+    this.notificationListener();
+    this.messageListener();
   }
 
 
