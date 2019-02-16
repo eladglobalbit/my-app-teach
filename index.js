@@ -39,7 +39,7 @@ const LogLocation = async (message) => {
         .android.setChannelId("Hip-chanelId") // e.g. the id you chose above
         .android.setSmallIcon("ic_launcher") // create this icon in Android Studio
         .android.setColor("#000000") // you can set a color here
-        .android.setPriority(firebase.notifications.Android.Priority.High)
+        .android.setPriority(firebase.notifications.Android.Priority.Max)
         .setSound('default')
   
 
@@ -56,3 +56,5 @@ AppRegistry.registerHeadlessTask(
     () => LogLocation
   
   );
+
+  

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-65:12
-INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-65:12
-INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-65:12
-INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-65:12
+ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-68:12
+INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-68:12
+INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-68:12
+INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-68:12
 MERGED from [:react-native-vector-icons] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-23:12
 MERGED from [:react-native-firebase] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-15:12
@@ -54,20 +54,20 @@ MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/eladnisan/.gradle/caches/
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/c83bf8801932f35c67175abe771eed41/AndroidManifest.xml:2:1-9:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fa168624b70de69555b3a4f3852c4ff8/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b88799e42f574950982474040e8a7dbf/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-65:12
-INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-65:12
-INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-65:12
+INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-68:12
+INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-68:12
+INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-68:12
 	package
 		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:2:5-24
 		INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-65:12
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-68:12
 		INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-65:12
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-68:12
 		INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -132,7 +132,7 @@ MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/eladnisan/.gradle/c
 	android:name
 		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:11:22-76
 application
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:15:5-63:19
+ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:15:5-66:19
 MERGED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-21:19
 MERGED from [:react-native-image-picker] /Users/eladnisan/Desktop/react-native-projects/my-app-teach/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-21:19
 MERGED from [com.facebook.react:react-native:0.57.4] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/3aadb3f5bfab639c807c7c68b82dc020/AndroidManifest.xml:13:5-20
@@ -242,31 +242,31 @@ ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/a
 	android:name
 		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:50:25-77
 service#io.invertase.firebase.messaging.RNFirebaseBackgroundMessagingService
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:53:9-104
+ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:56:9-104
 	android:name
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:53:18-101
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:56:18-101
 receiver#io.invertase.firebase.notifications.RNFirebaseBackgroundNotificationActionReceiver
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:54:9-58:20
+ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:57:9-61:20
 	android:exported
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:54:117-140
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:57:117-140
 	android:name
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:54:19-116
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:57:19-116
 intent-filter#action:name:io.invertase.firebase.notifications.BackgroundAction
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:55:13-57:29
+ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:58:13-60:29
 action#io.invertase.firebase.notifications.BackgroundAction
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:56:17-94
+ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:59:17-94
 	android:name
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:56:25-92
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:59:25-92
 service#io.invertase.firebase.notifications.RNFirebaseBackgroundNotificationActionsService
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:59:9-117
+ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:62:9-117
 	android:name
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:59:18-115
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:62:18-115
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:60:9-62:63
+ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:63:9-65:63
 	android:value
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:62:6-61
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:65:6-61
 	android:name
-		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:61:6-51
+		ADDED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:64:6-51
 uses-sdk
 INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml
@@ -630,6 +630,6 @@ ADDED from [com.google.android.gms:play-services-basement:16.1.0] /Users/eladnis
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /Users/eladnisan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/66a13d355dbdeda1eebae25b1bac5920/AndroidManifest.xml:24:13-58
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-65:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-68:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-65:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/eladnisan/Desktop/react-native-projects/my-app-teach/android/app/src/main/AndroidManifest.xml:1:1-68:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
